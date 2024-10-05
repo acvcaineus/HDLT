@@ -1,0 +1,6 @@
+run = "/projeto_dlt_framework     ├── app.py              # Arquivo principal do Flask     ├── templates/          # Diretório para HTML     │   └── index.html      # Página inicial     ├── static/             # Diretório para CSS, JavaScript     │   ├── style.css       # Arquivo de estilos     │   └── script.js       # Arquivo JavaScript para interação     ├── dados_dlt.py        # Dados das DLTs     ├── calculos_dlt.py     # Lógica de cálculo"
+[nix]
+channel = "stable-24_05"
+
+[deployment]
+run = ["sh", "-c", "/projeto_dlt_framework     ├── app.py              # Arquivo principal do Flask     ├── templates/          # Diretório para HTML     │   └── index.html      # Página inicial     ├── static/             # Diretório para CSS, JavaScript     │   ├── style.css       # Arquivo de estilos     │   └── script.js       # Arquivo JavaScript para interação     ├── dados_dlt.py        # Dados das DLTs     ├── calculos_dlt.py     # Lógica de cálculo"]
